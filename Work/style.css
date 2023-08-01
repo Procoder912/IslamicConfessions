@@ -1,0 +1,327 @@
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    max-width: 100%;
+    background-color: #5CDB95;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav1 {
+    padding: 20px;
+    height: 100px; 
+    width: 100%;
+    background-color: #05386B;
+}
+
+/* First part of Navbar */
+
+.Navbartext1 {
+    position: relative;
+    right: 200px;
+    color: #EDF5E1;
+}
+
+/* All of the below is SEARCH-BAR  */
+
+.searchBox {
+    position: relative;
+    bottom: 18px;
+    right: 450px;
+    transform:  translate(-50%,50%);
+    background: #5CDB95;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+.searchBox:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+  background: #EDF5E1;
+  color : #05386B;
+}
+
+.searchButton {
+    color: #EDF5E1;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #5CDB95;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.searchInput {
+    position: relative;
+    bottom: 10px;
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: #EDF5E1;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+
+}
+
+@media screen{
+.searchBox:hover > .searchInput {
+    width: 350px;
+    padding: 0 6px;
+}
+
+}
+
+/* All of the above is SEARCH-BAR ^^^ */
+
+
+
+/* Second part of Navbar */
+
+.Navbartext2 {
+    color: #EDF5E1;
+    position: relative;
+    left: 550px;
+}
+
+.button1 {
+    position: relative; 
+    left: 580px;
+    bottom: 1px;
+}
+
+.btn1 {
+    background-color: #5CDB95;
+    border-radius: 40px;
+    border: none;
+    color: #EDF5E1;   
+}
+.button2 {
+    position: relative;
+    left: 610px;
+    bottom: 1px;
+}
+
+.btn2 {
+    background-color: #5CDB95;
+    border-radius: 40px;
+    border: none;
+    color: #EDF5E1;   
+}
+
+/* All of the above is NAVBAR ^^^ */
+
+.Halal-Humor1 {
+    background-color: #5CDB95;
+    padding: 320px;
+    text-align: center;
+} 
+.Halal-HumorV4 {
+    position: relative;
+    z-index: 10;
+    height: 1500px;
+    padding: 320;
+    padding-bottom: 0px;
+    top: 60px;
+    right: 525px;
+}
+
+/* fix button later */
+
+.btn12 {
+    text-align: center;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    color: #EDF5E1;
+    background-color: #05386B;
+}
+.fade-in-n-out {
+    position: relative;
+    top: 200px;
+    left: 200px;
+    font-size: 30px;
+    text-align: left;
+    overflow: hidden;
+}
+.fade-in-n-out::before {
+    content: '';
+    position: absolute;
+    left: -20%;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent 0%, #5CDB95 0%, #5CDB95 100%);
+    animation: animate 4s linear forwards;
+    opacity: 0; /* Initially, set the opacity to 0 to hide the element */
+}
+
+@keyframes animate {
+    0% {
+        left: -20%;
+        opacity: 0; /* Start the fade-in animation by changing opacity from 0 to 1 */
+    }
+    100% {
+        left: 120%;
+        opacity: 100; /* Ensure the opacity stays at 1 after the animation is complete */
+    }
+}
+.Moon {
+    position: relative;
+    bottom: 330px;
+    left: 1000px;
+    z-index: 9;
+}
+
+.cloud3V2 {
+    position: relative;
+    left: 500px;
+    bottom: 100;
+    z-index: 2;
+}
+
+.cloud1 {
+    position: relative;
+    width: 1700px;
+    bottom: 300px;
+    right: 800px;
+    z-index: 8;
+}
+
+.cloud2 {
+    position: relative;
+    width: 1500px;
+    bottom: 200px;
+    left: 600px;
+    z-index: 7;
+}
+
+.cloud2V2 {
+    position: relative;
+    width: 1300px;
+    bottom: 100px;
+    right: 600;
+    z-index: 6;
+}
+.cloud2V3 {
+    position: relative;
+    width: 1500px;
+    top: 500px;
+    bottom: 500px;
+    left: 600;
+    z-index: 5;
+}
+.cloud2V4 {
+    position: relative;
+    width: 1500px;
+    top: 1000px;
+    right: 800;
+    z-index: 4;
+}
+
+.cloud3 {
+    position: relative;
+    width: 1000px;
+    top: 1000px;
+    bottom: 100px;
+    left: 850px;
+    z-index: 12;
+}
+
+.footer1 {
+    position: relative;
+    padding: 100px;
+    color: #EDF5E1;
+    background-color: #05386B;
+    z-index: 11;
+}
+
+/* All of the above is the HOME PAGE ^^^ */
+
+/* All of the below is the ABOUT PAGE */
+
+
+
+.body1 {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url('/File/Images/Clouds2.png');
+    width: 100%;
+    vertical-align: middle;
+}
+
+.header2 {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    padding: 200px;
+}
+
+.header3 {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    background-color: #05386B;
+    border-radius: 5%;
+    color: #EDF5E1;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.features{
+    position: relative;
+    bottom: 450px;
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #5CDB95;
+}
+.icon {
+    color: #05386B;
+}
+
+.carousel1 {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1000px;
+    padding-bottom: 1000px;
+}
+
+.title-Carousel {
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 200px;
+    text-align: center;
+    color: #EDF5E1;
+    background-color: #05386B;
+    vertical-align: middle;
+}
+
+.carousel-item img {
+    width: 300px;
+    padding: 20px;
+}
+.carousel-inner {
+    padding: 50px;
+    background-color: #05386B;
+    height: 1000px;
+}
